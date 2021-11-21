@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Home from './Home';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import RenderingElements from './pages/3RenderingElements';
+import ComponentsAndProps from './pages/4ComponentsAndProps';
+import StateAndLifecycle from './pages/5StateAndLifecycle';
+import HandlingEvents from './pages/6HandlingEvents';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter >
+    <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/rendering-elements" element={<RenderingElements/>}/>
+        <Route path="/components-and-props" element={<ComponentsAndProps/>}/>
+        <Route path="/state-and-lifecycle" element={<StateAndLifecycle/>}/>
+        <Route path="/handling-events" element={<HandlingEvents/>}/>
+
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
