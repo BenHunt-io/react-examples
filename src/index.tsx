@@ -8,6 +8,9 @@ import RenderingElements from './pages/3RenderingElements';
 import ComponentsAndProps from './pages/4ComponentsAndProps';
 import StateAndLifecycle from './pages/5StateAndLifecycle';
 import HandlingEvents from './pages/6HandlingEvents';
+import ConditionalRendering from './pages/7ConditionalRendering/7ConditionalRendering';
+import ListsAndKeys from './pages/8ListsAndKeys/8ListsAndKeys';
+import Forms from './pages/9Forms/9Forms';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +21,11 @@ ReactDOM.render(
         <Route path="/components-and-props" element={<ComponentsAndProps/>}/>
         <Route path="/state-and-lifecycle" element={<StateAndLifecycle/>}/>
         <Route path="/handling-events" element={<HandlingEvents/>}/>
+        <Route path="/conditional-rendering" element={<ConditionalRendering/>}/>
+        <Route path="/lists-and-keys" element={<ListsAndKeys/>}/>
+        <Route path="/forms" element={<Forms/>}/>
+
+
 
       </Routes>
     </BrowserRouter>
