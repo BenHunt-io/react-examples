@@ -11,6 +11,9 @@ import HandlingEvents from './pages/6HandlingEvents';
 import ConditionalRendering from './pages/7ConditionalRendering/7ConditionalRendering';
 import ListsAndKeys from './pages/8ListsAndKeys/8ListsAndKeys';
 import Forms from './pages/9Forms/9Forms';
+import LiftingStateUp from './pages/10LiftingStateUp';
+import CompositionVsInheritance from './pages/11CompositionVsInheritance/11CompositionVsInheritance';
+import ThinkingInReact from './pages/12ThinkingInReact';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +27,11 @@ ReactDOM.render(
         <Route path="/conditional-rendering" element={<ConditionalRendering/>}/>
         <Route path="/lists-and-keys" element={<ListsAndKeys/>}/>
         <Route path="/forms" element={<Forms/>}/>
+        <Route path="/lifting-state-up" element={<LiftingStateUp/>}/>
+        <Route path="/composition-vs-inheritance" element={<CompositionVsInheritance/>}/>
+        <Route path="/thinking-in-react" element={<ThinkingInReact/>}/>
+
+
 
 
 
