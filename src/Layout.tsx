@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 
 
-const Layout = ({children, history} : {children : any, history?: any}) => {
+const Layout = ({ children, history }: { children: any, history?: any }) => {
 
     return (
         <div id="layout" className="container">
@@ -42,6 +42,12 @@ const Layout = ({children, history} : {children : any, history?: any}) => {
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/thinking-in-react">12 - Thinking in React</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/context">Advanced - Context</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/introducing-hooks">Hooks - Introducing Hooks</Link>
                         </li>
                     </ul>
                 </div>
