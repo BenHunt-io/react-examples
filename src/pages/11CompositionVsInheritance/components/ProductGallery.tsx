@@ -1,6 +1,5 @@
 import * as React from 'react';
 import NftProductCard, { NftProductCardModel } from './NftProductCard';
-import ProductCard, { ProductCardModel } from './ProductCard';
 
 
 

@@ -6,7 +6,7 @@ const AppContext = React.createContext({
 });
 
 const Context = () => {
-  const [context, setContext] = useState({
+  const [context] = useState({
     theme: "dark",
   });
 

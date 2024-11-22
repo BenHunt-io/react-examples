@@ -49,6 +49,9 @@ const Layout = ({ children, history }: { children: any, history?: any }) => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/introducing-hooks">Hooks - Introducing Hooks</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/only-call-hooks-from-top-level">Hooks - Only Call Hooks From Top Level</Link>
+                        </li>
                     </ul>
                 </div>
                 <div id="layout-content" className="col-8">

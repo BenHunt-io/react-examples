@@ -16,6 +16,7 @@ import CompositionVsInheritance from "./pages/11CompositionVsInheritance/11Compo
 import ThinkingInReact from "./pages/12ThinkingInReact";
 import IntroducingHooks from "./pages/hooks/IntroducingHooks";
 import Context from "./pages/Context";
+import OnlyCallHooksFromTopLevel from "./pages/hooks/OnlyCallHooksFromTopLevel";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -40,6 +41,8 @@ ReactDOM.render(
         <Route path="/thinking-in-react" element={<ThinkingInReact />} />
         <Route path="/context" element={<Context />} />
         <Route path="/introducing-hooks" element={<IntroducingHooks />} />
+        <Route path="/only-call-hooks-from-top-level" element={<OnlyCallHooksFromTopLevel />} />
+  
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
